@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-montserrat-n4-active wf-montserrat-n7-active wf-bitter-n4-active wf-bitter-n7-active wf-bitter-i4-active wf-active" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>NoGlasses</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Webflow">
+    <link rel="stylesheet" type="text/css" href="./NoGlasses_files/stylesheet.css">
+    <script src="./NoGlasses_files/webfont.js"></script>
+    <link rel="stylesheet" href="./NoGlasses_files/css"><script>
+        WebFont.load({
+            google: {
+                families: ["Montserrat:400,700", "Bitter:400,700,400italic"]
+            }
+        });
+    </script>
+    <script type="text/javascript" src="./NoGlasses_files/modernizr-2.7.1.js"></script>
+    <script type="text/javascript" src="./NoGlasses_files/jquery.js"></script>
+    <script src="./NoGlasses_files/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./NoGlasses_files/spiel.js"></script>
+</head>
+<body>
+    <div id="poster" class="mask poster" onclick="hideModal('poster')">
+        <div class="modal">
+            <h1 class="modalheader">포스터 & 최종 발표자료</h1>
+            <a class="modallink">TBD</a>
+        </div>
+    </div>
+    <div id="hifi" class="mask hifi" onclick="hideModal('hifi')">
+        <div class="modal">
+            <h1 class="modalheader">HI-FI 프로토타입</h1>
+            <a class="modallink">TBD</a>
+        </div>
+    </div>
+    <div id="heuristic" class="mask heuristic" onclick="hideModal('heuristic')">
+        <div class="modal">
+            <h1 class="modalheader">휴리스틱 평가</h1>
+            <a href="DesignProcess_files/heuristic_evaluation.pdf" class="modallink" target="_blank">Heuristic Evaluation</a>
+        </div>
+    </div>
+    <div id="lofi" class="mask lofi" onclick="hideModal('lofi')">
+        <div class="modal">
+            <h1 class="modalheader">LOW-FI 프로토타입</h1>
+            <div class="label">Presentation:</div>
+            <a href="DesignProcess_files/lo-fi_presentation.pdf" class="modallink presentation" target="_blank">PDF</a>
+            <a href="https://docs.google.com/presentation/d/10gA4iF7PHKKKiOt88Jqkkqj-BqAmAecHWj0r7zt-fXk/edit#slide=id.p" class="modallink presentation" target="_blank">PPT</a>
+            <a href="DesignProcess_files/lo-fi_script.pdf" class="modallink" target="_blank">Prototype Testing Script</a>
+            <a href="DesignProcess_files/lo-fi_report.pdf" class="modallink" target="_blank">Written Report with Prototype</a>
+        </div>
+    </div>
+    <div id="concept" class="mask conceptvideo" onclick="hideModal('concept')">
+        <div class="modal">
+            <h1 class="modalheader">컨셉 비디오</h1>
+            <div class="label concept">Presentation/Storyboards:</div>
+            <a href="DesignProcess_files/concept_video_presentation.pdf" class="modallink presentation" target="_blank">PDF</a>
+            <a href="https://docs.google.com/presentation/d/1M2i1Tss50yJ3bYw7cod2k9VFTJ1yWkx_KQBWOOeq_HI/edit#slide=id.g2cb22eeb23e_0_14" class="modallink presentation right" target="_blank">PPT</a>
+            <a href="https://youtu.be/QEGa2T-xdgQ" class="modallink" target="_blank">Watch the Video</a>
+        </div>
+    </div>
+    <div id="HMW" class="mask HMW" onclick="hideModal('HMW')">
+        <div class="modal">
+            <h1 class="modalheader">아이디어 도출하기</h1>
+            <div class="label">Presentation:</div>
+            <a href="DesignProcess_files/HMW_presentation.pdf" class="modallink presentation" target="_blank">PDF</a>
+            <a href="https://docs.google.com/presentation/d/15n9UYQiz7amUsofCxYAqF5_W_92rpiVtlX70A5dydCw/edit#slide=id.p" class="modallink presentation right" target="_blank">PPT</a>
+            
+        </div>
+    </div>
+    <div id="pov" class="mask pov" onclick="hideModal('pov')" style="display: none;">
+        <div class="modal">
+            <h1 class="modalheader">NEEDFINDING</h1>
+            <div class="label">Presentation:</div>
+            <a href="DesignProcess_files/needfinding_presentation.pdf" class="modallink presentation" target="_blank">PDF</a>
+            <a href="https://docs.google.com/presentation/d/1pfwyKlUI-Wte9Z0NWiKvXvG-j0e_RpXvVg-17XDlMxQ/edit#slide=id.p" class="modallink presentation right" target="_blank">PPT</a>
+            <a href="https://miro.com/app/board/uXjVKbWOzIU=/?share_link_id=473296928017" class="modallink" target="_blank">Empathy Map List</a>
+        </div>
+    </div>
+    <div id="medfi" class="mask medfi" onclick="hideModal('medfi')">
+        <div class="modal">
+            <h1 class="modalheader">MEDIUM-FI PROTOTYPE</h1>
+            <div class="label">Presentation:</div>
+            <a href="DesignProcess_files/medfi_presentation.pdf" class="modallink presentation" target="_blank">PDF</a>
+            <a href="https://docs.google.com/presentation/d/1KAQ8xMEjRSBuDQmBWSUIU3x-2JPdKtfZJ_fm4glbS9E/edit#slide=id.p" class="modallink presentation right">PPT</a>
+            <a href="https://noglasses.invisionapp.com/overview/NoGlasses-clvw3tsct3ayq018v13o70v5d/screens" class="modallink" target="_blank">Prototype on InVision</a>
+            <a href="DesignProcess_files/README.pdf" class="modallink" target="_blank">README</a>
+        </div>
+    </div>
+
+	<header class="w-section navbar">
+		<div class="w-container">
+			<div class="w-row">
+				<div class="w-col w-col-4"><img width="25" src="./NoGlasses_files/logo-header.png" class="logo">
+					<div class="app-name">NoGlasses</div>
+				</div>
+				<div class="w-col w-col-8 nav-column">
+					<a href="https://hci.stanford.edu/courses/cs147/2015/au/projects/crowd_power/spiel/#process" class="nav-link">DESIGN PROCESS</a>
+					<a href="https://hci.stanford.edu/courses/cs147/2015/au/projects/crowd_power/spiel/#prototypes" class="nav-link">PROTOTYPES</a>
+					<a href="https://hci.stanford.edu/courses/cs147/2015/au/projects/crowd_power/spiel/#about" class="nav-link">ABOUT US</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="section grey">
+        <div class="w-container">
+            <div class="w-row">
+                <div class="w-col w-col-6"><img width="330px" src="./NoGlasses_files/mockup.png" class="hero-iphone"></div>
+                <div class="w-col w-col-6 call-to-action">
+                    <h1 style="margin-top: 40%;">안경을 착용하지 않고도 스마트폰 사용을 편하게</h1>
+                    <a href="https://noglasses.invisionapp.com/overview/NoGlasses-clvw3tsct3ayq018v13o70v5d/screens" class="button">Try the Prototype</a></div>
+            </div>
+        </div>
+    </div>
+	<!-- <div class="w-section w-hidden-small w-hidden-tiny section grey"></div> -->
+	<div id="process" class="w-section section">
+        <h1>DESIGN PROCESS</h1>
+        <div class="w-container processcontainer">
+            <div class="w-row">
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('pov')"><img src="./NoGlasses_files/POV.png" class="item">
+                    <div class="caption">필요 발견하기</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('HMW')"><img src="./NoGlasses_files/HMW.png" class="item">
+                    <div class="caption">아이디어 도출하기</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('concept')"><img src="./NoGlasses_files/conceptvideo.png" class="item">
+                    <div class="caption">컨셉 비디오</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('lofi')"><img src="./NoGlasses_files/Lo-fi.png" class="item">
+                    <div class="caption">Low-fi 프로토타입</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-container processcontainer">
+            <div class="w-row">
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('medfi')"><img src="./NoGlasses_files/MockupPage.png" class="item">
+                    <div class="caption">Medium-fi 프로토타입</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('heuristic')"><img src="./NoGlasses_files/heuristicevaluation.png" class="item">
+                    <div class="caption">휴리스틱 평가</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('hifi')"><img src="./NoGlasses_files/hi-fi.png" class="item">
+                    <div class="caption">Hi-fi 프로토타입</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6 processitem" onclick="modal('poster')"><img src="./NoGlasses_files/poster.png" class="item">
+                    <div class="caption">포스터 & 최종 발표자료</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="team" class="w-section section grey">
+        <h1>ABOUT US</h1>
+        <div class="w-container teamcontainer">
+            <div class="w-row">
+                <div class="w-col w-col-3 w-col-small-6"><img src="./NoGlasses_files/Junyeong Baek.png" class="team">
+                    <div class="teamlabel">백준영</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6"><img src="./NoGlasses_files/Kiyeop Sung.png" class="team">
+                    <div class="teamlabel">성기엽</div>
+                </div> 
+                <div class="w-col w-col-3 w-col-small-6"><img src="./NoGlasses_files/Jinhong Kim.png" class="team">
+                    <div class="teamlabel">김진홍</div>
+                </div>
+                <div class="w-col w-col-3 w-col-small-6"><img src="./NoGlasses_files/uos_logo.png" class="team">
+                    <div class="teamlabel">서울시립대학교 소속</div>
+                </div> 
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
